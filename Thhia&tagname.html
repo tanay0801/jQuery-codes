@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This and tag name tutorial</title>
+	<script src="jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("input").focus(function(){
+				$(this).css("background-color","lightblue")
+			});
+			$("input").blur(function(){
+				$(this).css("background-color","white")
+			});
+		});
+	</script>
+</head>
+<body>
+<label for="Fname">First Name</label>
+<input type="text" id="Fname"><br>
+<label for="Lname">Last Name</label>
+<input type="text" id="Lname"><br>
+<input type="button" value="submit">
+</body>
+</html>

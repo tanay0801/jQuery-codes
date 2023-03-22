@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This and tag name tutorial</title>
+	<script src="jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btnClick").click(function(){
+				$("[class]").css("color","red");
+			})
+		});
+	</script>
+</head>
+<body>
+<table>
+	<p id="first-para" class="paras">First Paragraph. First Paragraph.</p>
+	<p id="second-para">Second Paragraph. Second Paragraph.</p>
+	<p id="third-para">Third Paragraph. Third Paragraph.</p>
+	<div id="firstDiv">First div</div>
+	<div id="secondDiv" class="divs">Second div</div>
+	<div id="thirdDiv">Third div</div>
+	<div id="fourthDiv" class="divs">Fourth div</div>
+	<button id="btnClick">Click!!!</button>
+</table>
+</body>
+</html>
